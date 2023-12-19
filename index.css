@@ -1,0 +1,352 @@
+body {
+    margin: 0;
+    font-family: 'League Spartan', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1145px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header {
+    position: absolute;
+    width: 100%; 
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav {
+    padding-top: 55px;
+    padding-bottom: 55px;
+    display: flex;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.nav_link {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.75;
+    transition: opacity 0.2s linear;
+}
+
+.nav_link:first-child {
+    margin-left: 0;
+}
+
+.nav_link:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.intro {
+    width: 100%;
+    height: 705px;
+    display: flex;
+    flex-direction: column;
+    background: url("img/intro.png") no-repeat center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.bordered-text {
+    width: 515px;
+    height: 125px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 62px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bordered-text span {
+    font-weight: 300;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 40px;
+    border-radius: 5px;
+    font-family: inherit;
+    cursor: pointer;
+    border:0;
+    font-size: 26px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .1s background linear;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn--yellow {
+    background-color: #F89A0D;
+}
+
+.btn--trns {
+    border: #fff solid 2px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px 40px;
+    border-radius: 5px;
+    font-family: inherit;
+    cursor: pointer;
+    font-size: 26px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .1s background linear;
+    text-align: center;
+    margin-top: 40px;
+
+}
+.btn--yellow:hover {
+    background-color: #E0800F;
+}
+
+.btn--long {
+    min-width: 280px;
+}
+
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages_title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.advantages_left {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.advantages_right {
+    font-size: 26px;
+    font-weight: 500;
+    
+}
+
+.Welcome_title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.text {
+    font-size: 28px;
+    font-weight: 400;
+    
+    text-align: left;
+}
+
+.center-container {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 40px;
+    border-radius: 5px;
+    font-family: inherit;
+    cursor: pointer;
+    border: 0;
+    font-size: 26px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.1s background linear;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.btn--yellow2 {
+    background-color: #F89A0D;
+}
+
+.btn--yellow2:hover {
+    background-color: #E0800F;
+}
+
+.btn--long {
+    min-width: 280px;
+}
+
+
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.rooms {
+    font-size: 38px;
+    font-weight: 500;
+    margin-top: 50px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+img {
+    max-width: 100%; 
+    height: auto; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.entertainment{
+    font-size: 80px;
+    font-weight: 500;
+    margin-top: 50px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.image-container {
+    display: flex; 
+}
+
+.happy{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.happy__item{
+    width: 25%;  
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid#fff;
+    border-right: 1px solid#fff;
+
+}
+
+.servies {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    max-width: 100%;
+  }
+  
+  .servies__item {
+    display: flex;
+    align-items: center;
+    margin: 6px;
+    text-align: center; 
+  }
+  
+  .servies__photo {
+    width: auto;
+    height: 100px; 
+    object-fit: cover;
+  }
+  
+  .servies__caption {
+    color: rgb(240, 177, 6);
+    font-weight: bold;
+    margin-top: 10px;
+    word-wrap: break-word;
+  }
+
+  .footer {
+    margin-top: 5%;
+    width: 100%;
+    height: 100%;
+    background-image: url("field.png");
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-size: cover;
+    padding: 5%;
+    padding-right: 5%;
+}
+.socio-img{
+    width: 63px;
+    border: 0px;
+margin-bottom: 50%; }
+.socio{
+    margin-top: 7%;
+}
+
+.cntc{
+    border: 0px; 
+    margin-top: 2%;
+}
+.form-name{
+    font-size: 50px;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+}
+.form{
+    margin-top: -2%;
+}
+
+.inputsy{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    font-size: 45px;
+    padding: 10px;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    opacity: 50%;
+    border: 0px;}
+
+
+input::placeholder{
+    opacity: 100%;
+    margin-left: 10%;
+}
